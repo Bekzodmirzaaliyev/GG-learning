@@ -1,0 +1,77 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+
+.swipers {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  gap: 1%;
+}
+
+.swiper {
+  width: 60% !important;
+  height: 600px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.vertical-swiper-top {
+  width: 100% !important;
+  height: 300px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+.vertical-swiper-bottom {
+  width: 100% !important;
+  height: 300px !important;
+  margin: 0 !important;
+  padding: 0 !important;
+  overflow: hidden;
+}
+
+
+.subSwipers {
+  display: flex;
+  width: 39%;
+  flex-direction: column;
+  gap: 1% !important;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 30px;
+}
+
+
+.advertising{
+  background-image: url(../imgs/images.jpg);
+  background-position: cover;
+  background-repeat: no-repeat;
+}
+
+.advertising{
+  display: flex;
+  align-items: center;
+  justify-content:center ;
+}
+.advertising .right img{
+  width: 700px;
+  height: 300px;
+}

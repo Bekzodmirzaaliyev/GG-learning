@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>eBazar</title>
+    <!-- styles -->
+    <link rel="stylesheet" href="../assets/styles/main.css" />
+    <!-- bootstrap icon -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="../assets/styles/slider.css" />
+  </head>
+
+  <body>
+    <!-- header start -->
+    <header>
+      <div class="container">
+        <nav>
+          <!--? left logo -->
+          <div class="logo">
+            <span>
+              <a href="/pages/index.html">eBazar</a>
+            </span>
+            <span>
+              <i class="bi bi-shop"></i>
+            </span>
+          </div>
+          <!--? logo end -->
+
+          <!--? logo Search center -->
+          <div class="nav-search">
+            <input
+              type="text"
+              class="nav__center-input"
+              id="nav__input-search"
+              placeholder="Search"
+            />
+            <div class="search-btn"></div>
+          </div>
+          <!--? logo center end  -->
+
+          <!--? nav links right -->
+          <div class="nav-link">
+            <div class="nav__links-btn">
+              <div class="link__btn-around">
+                <svg
+                  width="26"
+                  height="24"
+                  viewBox="0 0 26 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="shop"
+                >
+                  <g clip-path="url(#clip0_1_34)">
+                    <path
+                      d="M10.7779 23.0001C11.4529 23.0001 12.0001 22.4529 12.0001 21.7779C12.0001 21.1029 11.4529 20.5557 10.7779 20.5557C10.1029 20.5557 9.55566 21.1029 9.55566 21.7779C9.55566 22.4529 10.1029 23.0001 10.7779 23.0001Z"
+                      fill="white"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M19.3336 23.0001C20.0086 23.0001 20.5558 22.4529 20.5558 21.7779C20.5558 21.1029 20.0086 20.5557 19.3336 20.5557C18.6585 20.5557 18.1113 21.1029 18.1113 21.7779C18.1113 22.4529 18.6585 23.0001 19.3336 23.0001Z"
+                      fill="white"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 1H4.7819L7.61832 17.0731H22.7459"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.11121 13.1837L22.3584 13.2907C22.4677 13.2908 22.5737 13.2529 22.6583 13.1837C22.7429 13.1144 22.8008 13.0179 22.8223 12.9107L24.5241 4.40145C24.5378 4.33283 24.5362 4.26203 24.5192 4.19414C24.5023 4.12625 24.4705 4.06297 24.4261 4.00886C24.3817 3.95476 24.3259 3.91118 24.2626 3.88128C24.1993 3.85138 24.1302 3.83589 24.0602 3.83594H5.56738"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_34">
+                      <rect width="26" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p class="nav-link__btn-text">Cart 0</p>
+            </div>
+            <div class="nav__links-btn">
+              <div class="link__btn-around">
+                <svg
+                  width="26"
+                  height="24"
+                  viewBox="0 0 26 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                  class="shop"
+                >
+                  <g clip-path="url(#clip0_1_34)">
+                    <path
+                      d="M10.7779 23.0001C11.4529 23.0001 12.0001 22.4529 12.0001 21.7779C12.0001 21.1029 11.4529 20.5557 10.7779 20.5557C10.1029 20.5557 9.55566 21.1029 9.55566 21.7779C9.55566 22.4529 10.1029 23.0001 10.7779 23.0001Z"
+                      fill="white"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M19.3336 23.0001C20.0086 23.0001 20.5558 22.4529 20.5558 21.7779C20.5558 21.1029 20.0086 20.5557 19.3336 20.5557C18.6585 20.5557 18.1113 21.1029 18.1113 21.7779C18.1113 22.4529 18.6585 23.0001 19.3336 23.0001Z"
+                      fill="white"
+                      stroke="white"
+                      stroke-width="1.5"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M1 1H4.7819L7.61832 17.0731H22.7459"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                    <path
+                      d="M7.11121 13.1837L22.3584 13.2907C22.4677 13.2908 22.5737 13.2529 22.6583 13.1837C22.7429 13.1144 22.8008 13.0179 22.8223 12.9107L24.5241 4.40145C24.5378 4.33283 24.5362 4.26203 24.5192 4.19414C24.5023 4.12625 24.4705 4.06297 24.4261 4.00886C24.3817 3.95476 24.3259 3.91118 24.2626 3.88128C24.1993 3.85138 24.1302 3.83589 24.0602 3.83594H5.56738"
+                      stroke="white"
+                      stroke-width="2"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </g>
+                  <defs>
+                    <clipPath id="clip0_1_34">
+                      <rect width="26" height="24" fill="white" />
+                    </clipPath>
+                  </defs>
+                </svg>
+              </div>
+              <p class="nav-link__btn-text">Cart 0</p>
+            </div>
+          </div>
+          <!--? nav link end -->
+        </nav>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- main start -->
+    <main>
+      <section class="flex gap-5">
+        <sidebar class="sidebar">
+          <div
+            class="min-h-screen flex flex-col flex-auto flex-shrink-0 antialiased bg-gray-50 text-gray-800"
+          >
+            <div
+              class="fixed flex flex-col top-[76px] left-0 w-64 bg-white h-full border-r"
+            >
+              <div class="flex items-center justify-center h-14 border-b">
+                <div class="font-semibold">Categories</div>
+              </div>
+              <div class="overflow-y-auto overflow-x-hidden flex-grow">
+                <ul class="flex flex-col py-4 space-y-1">
+                  <li class="px-5">
+                    <div class="flex flex-row items-center h-8">
+                      <div
+                        class="text-sm font-light tracking-wide text-gray-500"
+                      >
+                        Electronics
+                      </div>
+                    </div>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M3 12l2-2m0 0l7-7 7 7M5 10v10a1 1 0 001 1h3m10-11l2 2m-2-2v10a1 1 0 01-1 1h-3m-6 0a1 1 0 001-1v-4a1 1 0 011-1h2a1 1 0 011 1v4a1 1 0 001 1m-6 0h6"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Laptops</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M20 13V6a2 2 0 00-2-2H6a2 2 0 00-2 2v7m16 0v5a2 2 0 01-2 2H6a2 2 0 01-2-2v-5m16 0h-2.586a1 1 0 00-.707.293l-2.414 2.414a1 1 0 01-.707.293h-3.172a1 1 0 01-.707-.293l-2.414-2.414A1 1 0 006.586 13H4"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Smartphones</span
+                      >
+                      <span
+                        class="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-indigo-500 bg-indigo-50 rounded-full"
+                        >New</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M7 8h10M7 12h4m1 8l-4-4H5a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v8a2 2 0 01-2 2h-3l-4 4z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Airphones</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Accessories</span
+                      >
+                      <span
+                        class="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-red-500 bg-red-50 rounded-full"
+                        >+1000</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M12 4.354a4 4 0 110 5.292M15 21H3v-1a6 6 0 0112 0v1zm0 0h6v-1a6 6 0 00-9-5.197M13 7a4 4 0 11-8 0 4 4 0 018 0z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Watches</span
+                      >
+                      <span
+                        class="px-2 py-0.5 ml-auto text-xs font-medium tracking-wide text-green-500 bg-green-50 rounded-full"
+                        >Top</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Televisions</span
+                      >
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="#"
+                      class="relative flex flex-row items-center h-11 focus:outline-none hover:bg-gray-50 text-gray-600 hover:text-gray-800 border-l-4 border-transparent hover:border-indigo-500 pr-6"
+                    >
+                      <span
+                        class="inline-flex justify-center items-center ml-4"
+                      >
+                        <svg
+                          class="w-5 h-5"
+                          fill="none"
+                          stroke="currentColor"
+                          viewBox="0 0 24 24"
+                          xmlns="http://www.w3.org/2000/svg"
+                        >
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"
+                          ></path>
+                          <path
+                            stroke-linecap="round"
+                            stroke-linejoin="round"
+                            stroke-width="2"
+                            d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"
+                          ></path>
+                        </svg>
+                      </span>
+                      <span class="ml-2 text-sm tracking-wide truncate"
+                        >Household Appliances</span
+                      >
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>    
+        </sidebar>
+        <div class="main-content">
+          <div class="swipers">
+            <!-- mainSwiper Horizontal-->
+            <!-- Slider main container -->
+            <div class="swiper">
+              <!-- Additional required wrapper -->
+              <div class="swiper-wrapper">
+              </div>
+              <div class="swiper-scrollbar"></div>
+            </div>
+             <!-- sub Swipers vertical -->
+            <div class="subSwipers">
+              <div class="vertical-swiper-top" pagination="true" pagination-type="progressbar">
+                <div class="swiper-wrapper">
+                </div>
+              
+                <div class="swiper-scrollbar"></div>
+              </div>
+
+              <div class="vertical-swiper-bottom">
+                <div class="swiper-wrapper">
+
+                </div>
+              
+                <div class="swiper-scrollbar"></div>
+              </div>
+            </div> 
+          </div>
+        </div>
+    </main>
+    <section class="advertising">
+      <div class="laft">
+    <h1>sdadafdafsf</h1>
+      </div>
+      <div class="rght">
+ <img src="../assets/imgs/apple_iphone_14_review_0.webp" alt="">
+      </div>
+    </section>
+    <!-- Main end -->
+
+    <script src="../components/slider.js" type="module"></script>
+    <script src="../components/app.js" type="module"></script>
+  </body>
+</html>

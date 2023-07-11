@@ -1,0 +1,173 @@
+[
+    { 
+        "id": "mob_1",
+        "name": "Iphone XS MAX",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://c4.wallpaperflare.com/wallpaper/541/324/838/5c1c95221bae9-wallpaper-preview.jpg",
+        "category" : "mobile",
+        "rating": "4",
+        "new": false,
+        "top": false
+    },
+    { 
+        "id": "mob_2",
+        "name": "Iphone 11",
+        "price": "$350",
+        "description": "Iphone 11 Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://images.pexels.com/photos/4071887/pexels-photo-4071887.jpeg?cs=srgb&dl=pexels-thiago-japyassu-4071887.jpg&fm=jpg",
+        "category" : "mobile",
+        "rating": "5",
+        "new": true,
+        "top": false
+    },
+    { 
+        "id": "mob_3",
+        "name": "Iphone 11 PRO",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://img.gadgethacks.com/img/44/29/63703723087235/0/iphone-11-pro-11-pro-max-full-spec-sheet-feature-overview.1280x600.jpg",
+        "category" : "mobile",
+        "rating": "5",
+        "new": true,
+        "top": true
+    },
+    { 
+        "id": "mob_4",
+        "name": "Iphone 11 PRO MAX",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://images.unsplash.com/photo-1600262606369-acb8a2cf69fb?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8aXBob25lJTIwMTElMjBwcm8lMjBtYXh8ZW58MHx8MHx8fDA%3D&w=1000&q=80",
+        "category" : "mobile",
+        "rating": "4",
+        "new": true,
+        "top": true
+    },
+    { 
+        "id": "mob_5",
+        "name": "Iphone 12",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP780/SP780-iPhone-Xs-Max.jpg",
+        "category" : "mobile",
+        "rating": "3",
+        "new": true,
+        "top": true
+    },
+    { 
+        "id": "mob_6",
+        "name": "Iphone 12 PRO",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP780/SP780-iPhone-Xs-Max.jpg",
+        "category" : "mobile",
+        "rating": "2",
+        "new": true,
+        "top": false
+    },
+    { 
+        "id": "mob_7",
+        "name": "Iphone 12 PRO MAX",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP780/SP780-iPhone-Xs-Max.jpg",
+        "category" : "mobile",
+        "rating": "1",
+        "new": true,
+        "top": false
+    },
+    { 
+        "id": "mob_8",
+        "name": "Iphone 13",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP780/SP780-iPhone-Xs-Max.jpg",
+        "category" : "mobile",
+        "rating": "3",
+        "new": true,
+        "top": true
+    },
+    { 
+        "id": "mob_9",
+        "name": "Iphone 13 PRO",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP780/SP780-iPhone-Xs-Max.jpg",
+        "category" : "mobile",
+        "rating": "2",
+        "new": true,
+        "top": false
+    },
+    { 
+        "id": "mob_10",
+        "name": "Iphone 13 PRO MAX",
+        "price": "$350",
+        "description": "IPhone XS Max display has rounded corners that follow a beautiful curved design, and these corners are within a standard rectangle. When measured as a standard rectangular shape, the screen is 6.46 inches diagonally (actual viewable area is less).",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://www.androidauthority.com/wp-content/uploads/2021/09/Apple-iPhone-13-Pro-Max-hero-image-on-wood.jpg",
+        "category" : "mobile",
+        "rating": "4",
+        "new": true,
+        "top": true
+    },
+    { 
+        "id": "lap_1",
+        "name": "MacBook Air",
+        "price": "$900",
+        "description": "MacBook Air was engineered to be as light on the environment as it is in your hands.",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://www.mobiletechreview.com/notebooks/image/MBA_haswell__lid.jpg",
+        "category" : "mobile",
+        "rating": "4",
+        "new": true,
+        "top": true
+    },
+
+    { 
+        "id": "lap_2",
+        "name": "MacBook Pro",
+        "price": "$200",
+        "description": "MacBook Pro was engineered to be as light on the environment as it is in your hands.",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://s.yimg.com/uu/api/res/1.2/pHtSIoVk_CptFqmRsgNBjg--~B/aD0xMjAwO3c9MTgwMDthcHBpZD15dGFjaHlvbg--/https://media-mbst-pub-ue1.s3.amazonaws.com/creatr-uploaded-images/2020-05/cc201060-8ffe-11ea-aff7-9444289fde6e.cf.jpg",
+        "category" : "mobile",
+        "rating": "5",
+        "new": true,
+        "top": true
+    },
+    
+    { 
+        "id": "lap_3",
+        "name": "Asus Tuf gaming 17",
+        "price": "$1700",
+        "description": "Asus Tuf gaming 17 was engineered to be as light on the environment as it is in your hands.",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://www.reliancedigital.in/wp-content/uploads/2021/12/Asus_TUF_17_Cover.jpg",
+        "category" : "mobile",
+        "rating": "5",
+        "new": true,
+        "top": true
+    },
+    { 
+        "id": "lap_4",
+        "name": "Lenovo IdeaPad Flex 5",
+        "price": "$1000",
+        "description": "Lenovo IdeaPad Flex 5 was engineered to be as light on the environment as it is in your hands.",
+        "color" : ["White","Gold","Space Gray"],
+        "imageURL" : "https://www.digitaltrends.com/wp-content/uploads/2020/06/lenovo-ryzen-flex-01-scaled.jpeg?resize=625%2C417&p=1",
+        "category" : "mobile",
+        "rating": "5",
+        "new": true,
+        "top": true
+    }
+
+]
