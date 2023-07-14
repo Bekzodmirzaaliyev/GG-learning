@@ -1,0 +1,125 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    width: 100%;
+    position: fixed;
+    background: linear-gradient(to right, #8e54e9, #4776e6);
+    padding: 5px 0;
+    top: 0;
+    left: 0;
+}
+
+.container {
+    max-width: 1330px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+
+}
+
+/* nav bar start */
+
+.navbar {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 7px 0px;
+}
+
+.nav__left {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    position: relative;
+}
+
+.nav__left-input {
+    position: relative;
+}
+
+.nav__search {
+    position: relative;
+    padding: 10px 34px 7px 30px;
+    width: 220px;
+    outline: none;
+    border: 1px solid transparent;
+    display: block;
+    border-radius: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+
+.input__seach-icon {
+    position: absolute;
+    z-index: 999;
+    cursor: pointer;
+    right: 12px;
+    top: 0.32em;
+}
+
+.nav__heart-btn {
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #6d21df;
+}
+
+.nav__heart-btn>svg {
+    width: 15px;
+    height: 15px;
+}
+
+.nav__basket-btn {
+    background: #6d21df;
+    cursor: pointer;
+    border: 1px solid transparent;
+    outline: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__basket-btn>svg {
+    width: 15px;
+    height: 15px;
+}
+
+.nav__center-logo>h1>a {
+    color: white;
+}
+
+.nav__li-infos>a {
+    color: white;
+    font-size: 18px;
+}
+
+.nav__ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+/* navbar end */
