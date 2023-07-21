@@ -1,0 +1,25 @@
+.animation__btn-click {
+    transition: all 0.1 ease !important;
+}
+
+.animation__btn-click:active {
+    transform: scaleX(1.001) !important;
+}
+
+.dropdown__icons {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: space-between !important;
+}
+
+.fngeen,
+.tevise,
+.oppo {
+    width: 35px;
+    height: 35px;
+}
+
+.baseus {
+    width: 30px;
+    height: 30px;
+}
